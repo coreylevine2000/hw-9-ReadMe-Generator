@@ -8,13 +8,18 @@ const promptUser = () => {
     return inquirer.prompt([
       {
         type: 'input',
-        name: 'name',
-        message: 'What is your name?',
+        name: 'title',
+        message: 'What is the title of your project?',
       },
       {
         type: 'input',
-        name: 'title',
-        message: 'What is the title of your project?',
+        name: 'usage',
+        message: 'Briefly discribe what your project is used for.',
+      },
+      {
+        type: 'input',
+        name: 'install',
+        message: 'What will this app require for installation? If none are required, please type "Do Nothing"',
       },
       {
         type: 'input',
@@ -40,9 +45,28 @@ const promptUser = () => {
   };
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
-const writeToFile = ({ name, location, github, title, outcome, ue, repo }) => 
-`Test if this will work
-${name}
+const writeToFile = ({ title, usage, location, github, title, outcome, ue, repo }) => 
+`#${title}
+
+##What it is that you are currently experiencing
+Hello, and thank you for usinging ${title}. ${title} was created to assist in the issue with ${issue}. This applicaton was created for the primary use by ${usage}.
+
+##Installation
+For the installation of this program, you will be required to${install}.
+
+##Features
+Some of the main features in this app are:
+${f1},
+${f2},
+${f3}.
+
+##Credits
+This application was created by ${name}, and can be found here:
+${repo}
+And a special Thank You to ${thankyou}!
+
+Any issues you may encounter while using this app, please contact me at ${email}.
+
 ${location}
 ${github}
 ${title}
