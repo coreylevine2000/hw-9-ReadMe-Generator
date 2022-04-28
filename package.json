@@ -9,6 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^6.3.1"
-  }
+    "inquirer": "^6.5.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreylevine2000/hw-9-ReadMe-Generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/coreylevine2000/hw-9-ReadMe-Generator/issues"
+  },
+  "homepage": "https://github.com/coreylevine2000/hw-9-ReadMe-Generator#readme"
 }
