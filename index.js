@@ -101,7 +101,8 @@ ${repo}
 Contributions:
 
 * Any issues you may encounter while using this app, or would like to contribute to its future developement, please contact me at ${email}.
-https://img.shields.io/github/repo-size/coreylevine2000/hw-9-ReadMe-Generator
+*
+[![size](https://img.shields.io/github/repo-size/coreylevine2000/hw-9-ReadMe-Generator)](https://img.shields.io/github/repo-size/coreylevine2000/hw-9-ReadMe-Generator)
 `
 ;
 // TODO: Create a function to initialize app
