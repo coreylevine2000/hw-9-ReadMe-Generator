@@ -45,7 +45,7 @@ const promptUser = () => {
         type: 'list',
         name: 'licence',
         message: 'What licence is this app created with?',
-        options: ["MIT", "GPU", "Option 3"],
+        choices: ["GNU AGPLv3", "MIT License", "The Unlicense"],
       },
       {
         type: 'input',
@@ -72,30 +72,36 @@ const promptUser = () => {
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
 const writeToFile = ({ title, issue, usage, install, f1, f2, f3, licence, name, repo, thankyou, email }) => 
-`#${title}
+`${title}
 
-##What it is that you are currently experiencing
-Hello, and thank you for usinging ${title}. ${title} was created to assist in the issue with ${issue}. This applicaton was created for the primary use by ${usage}.
+Issue:
+* Hello, and thank you for usinging ${title}. ${title} was created to assist in the issue with ${issue}. This applicaton was created for the primary use by ${usage}.
 
-##Installation
-For the installation of this program, you will be required to${install}.
+Installation:
 
-##Features
-Some of the main features in this app are:
+* For the installation of this program, you will be required to${install}.
+
+Features:
+
+* Some of the main features in this app are:
 ${f1},
 ${f2},
 ${f3}.
 
-##Licences
-This app was made with ${licence}
+Licence:
 
-##Credits
-This application was created by ${name}, and can be found here:
+* This app was made with ${licence}
+
+Credits:
+
+* This application was created by ${name}, and can be found here:
 ${repo}
-And a special Thank You to ${thankyou}!
+* And a special Thank You to ${thankyou}!
 
-##Issues and Contributions
-Any issues you may encounter while using this app, or would like to contribute to its future developement, please contact me at ${email}.
+Contributions:
+
+* Any issues you may encounter while using this app, or would like to contribute to its future developement, please contact me at ${email}.
+https://img.shields.io/github/repo-size/coreylevine2000/hw-9-ReadMe-Generator
 `
 ;
 // TODO: Create a function to initialize app
