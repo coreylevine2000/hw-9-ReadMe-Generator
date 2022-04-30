@@ -24,7 +24,7 @@ const promptUser = () => {
       {
         type: 'input',
         name: 'install',
-        message: 'What will this app require for installation? If none are required, please type "Do Nothing"',
+        message: 'What will this app require for installation? If none are required, please type "nothing"',
       },
       {
         type: 'input',
@@ -54,8 +54,13 @@ const promptUser = () => {
       },
       {
         type: 'input',
+        name: 'username',
+        message: 'Enter your Github username.',
+      },
+      {
+        type: 'input',
         name: 'repo',
-        message: 'Enter the Github Repository',
+        message: 'Enter the Repository name.',
       },
       {
         type: 'input',
@@ -71,32 +76,47 @@ const promptUser = () => {
   };
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
-const writeToFile = ({ title, issue, usage, install, f1, f2, f3, licence, name, repo, thankyou, email }) => 
+const writeToFile = ({ title, issue, usage, install, f1, f2, f3, licence, name, username, repo, thankyou, email }) => 
 `${title}
 
 Issue:
 Hello, and thank you for usinging ${title}. ${title} was created to assist in the issue with ${issue}. This applicaton was created for the primary use by ${usage}.
 
-Installation:
-For the installation of this program, you will be required to${install}.
 
-Features:
+Table of Contents:
+
+- [Installation](#installation)
+- [Features](#features)
+- [Credits](#credits)
+- [License](#license)
+- [Contributions](#contributions)
+- [Test](#test)
+
+## Installation:
+For the installation of this program, you will be required to install${install}.
+Clone the repository to your local machine, and make sure you are cd'd into the file from a programs GIT, if applicable. 
+
+## Features:
 Some of the main features in this app are:
-* ${f1}
-* ${f2}
-* ${f3}
+${f1}
+${f2}
+${f3}
 
-Licence:
-This app was made with ${licence}
-
-Credits:
+## Credits:
 This application was created by ${name}, and can be found here:
-${repo}
+
+* github.com/${username}/${repo}
+
 And a special Thank You to ${thankyou}!
 
-Contributions:
+## Licence:
+This app was made with ${licence}
 
+## Contributions:
 Any issues you may encounter while using this app, or would like to contribute to its future developement, please contact me at ${email}.
+
+## Test:
+To thoroughly test this application, run 'node index.js' into your GIT, run into a program you may be using instead if applicable.
 
 [![size](https://img.shields.io/github/repo-size/coreylevine2000/hw-9-ReadMe-Generator)](https://img.shields.io/github/repo-size/coreylevine2000/hw-9-ReadMe-Generator)
 `
