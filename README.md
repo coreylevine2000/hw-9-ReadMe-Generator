@@ -1,7 +1,7 @@
-1
+README GENERATOR
 
 Issue:
-Hello, and thank you for usinging 1. 1 was created to assist in the issue with 2. This applicaton was created for the primary use by 3.
+Hello, and thank you for usinging README GENERATOR. README GENERATOR was created to assist in the issue with Saving time. This applicaton was created for the primary use by to save time by prewriting a Readme file.
 
 
 Table of Contents:
@@ -14,27 +14,27 @@ Table of Contents:
 - [Test](#test)
 
 ## Installation:
-For the installation of this program, you will be required to install4.
+For the installation of this program, you will be required to installVS Code.
 Clone the repository to your local machine, and make sure you are cd'd into the file from a programs GIT, if applicable. 
 
 ## Features:
 Some of the main features in this app are:
-1
-3
+Prefilling blanks to generate a readme
+save time
 
 
 ## Credits:
-This application was created by , and can be found here:
+This application was created by Corey Levine, and can be found here:
 
-* github.com/123/23
+* github.com/coreylevine2000/hw-9-Readme-Generator
 
-And a special Thank You to 3!
+And a special Thank You to You!
 
 ## Licence:
-This app was made with GNU AGPLv3 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+This app was made with MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributions:
-Any issues you may encounter while using this app, or would like to contribute to its future developement, please contact me at 1.
+Any issues you may encounter while using this app, or would like to contribute to its future developement, please contact me at coreylevine2000@gmail.com.
 
 ## Test:
 To thoroughly test this application, run 'node index.js' into your GIT, run into a program you may be using instead if applicable.
