@@ -16,7 +16,7 @@ Features:
 
 Licence:
 
-* This app was made with GNU AGPLv3
+* This app was made with GNU AGPLv3 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Credits:
 
@@ -27,4 +27,5 @@ Credits:
 Contributions:
 
 * Any issues you may encounter while using this app, or would like to contribute to its future developement, please contact me at 1.
+*
 [![size](https://img.shields.io/github/repo-size/coreylevine2000/hw-9-ReadMe-Generator)](https://img.shields.io/github/repo-size/coreylevine2000/hw-9-ReadMe-Generator)
