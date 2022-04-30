@@ -13,6 +13,11 @@ const promptUser = () => {
       },
       {
         type: 'input',
+        name: 'issue',
+        message: 'What issue are you trying to address with your app?',
+      },
+      {
+        type: 'input',
         name: 'usage',
         message: 'Briefly discribe what your project is used for.',
       },
@@ -23,29 +28,50 @@ const promptUser = () => {
       },
       {
         type: 'input',
-        name: 'outcome',
-        message: 'What is the out come you are hoping to get?',
+        name: 'f1',
+        message: 'What is the primary feature of your app?',
       },
       {
         type: 'input',
-        name: 'ue',
-        message: 'What is the User Experience?',
+        name: 'f2',
+        message: 'what is the secondary feature of your app? If none, hit Enter.',
       },
       {
         type: 'input',
-        name: 'github',
-        message: 'Enter your GitHub Username',
+        name: 'f3',
+        message: 'what is the tratiary feature of your app? If none, hit Enter.',
+      },
+      {
+        type: 'list',
+        name: 'licence',
+        message: 'What licence is this app created with?',
+        options: ["MIT", "GPU", "Option 3"],
+      },
+      {
+        type: 'input',
+        name: 'name',
+        message: 'What is your name?',
       },
       {
         type: 'input',
         name: 'repo',
         message: 'Enter the Github Repository',
       },
+      {
+        type: 'input',
+        name: 'thankyou',
+        message: 'Enter the name of any and all contributors you wish to acknowledge. If none, enter "You"',
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email',
+      },
     ]);
   };
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
-const writeToFile = ({ title, usage, location, github, title, outcome, ue, repo }) => 
+const writeToFile = ({ title, issue, usage, install, f1, f2, f3, licence, name, repo, thankyou, email }) => 
 `#${title}
 
 ##What it is that you are currently experiencing
@@ -60,19 +86,16 @@ ${f1},
 ${f2},
 ${f3}.
 
+##Licences
+This app was made with ${licence}
+
 ##Credits
 This application was created by ${name}, and can be found here:
 ${repo}
 And a special Thank You to ${thankyou}!
 
-Any issues you may encounter while using this app, please contact me at ${email}.
-
-${location}
-${github}
-${title}
-${outcome}
-${ue}
-${repo}
+##Issues and Contributions
+Any issues you may encounter while using this app, or would like to contribute to its future developement, please contact me at ${email}.
 `
 ;
 // TODO: Create a function to initialize app
