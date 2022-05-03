@@ -80,7 +80,7 @@ const writeToFile = ({ title, issue, usage, install, f1, f2, f3, licence, name, 
 `${title}
 
 Issue:
-Hello, and thank you for usinging ${title}. ${title} was created to assist in the issue with ${issue}. This applicaton was created for the primary use by ${usage}.
+Hello, and thank you for using ${title}. ${title} was created to assist in the issue with ${issue}. This applicaton was created for the primary use by ${usage}.
 
 
 Table of Contents:
@@ -98,9 +98,9 @@ Clone the repository to your local machine, and make sure you are cd'd into the 
 
 ## Features:
 Some of the main features in this app are:
-${f1}
-${f2}
-${f3}
+*  ${f1}
+*  ${f2}
+*  ${f3}
 
 ## Credits:
 This application was created by ${name}, and can be found here:

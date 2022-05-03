@@ -1,7 +1,7 @@
-Example
+ReadMe Generator
 
 Issue:
-Hello, and thank you for usinging Example. Example was created to assist in the issue with The issue of pineapple on pizza. This applicaton was created for the primary use by Pineapple does not belong on pizza.
+Hello, and thank you for using ReadMe Generator. ReadMe Generator was created to assist in the issue with Save time. This applicaton was created for the primary use by saving time by premaking a ReadMe file.
 
 
 Table of Contents:
@@ -19,19 +19,19 @@ Clone the repository to your local machine, and make sure you are cd'd into the 
 
 ## Features:
 Some of the main features in this app are:
-Details reasons why
-Visual pictures
-
+*  Generate Readmes to save time
+*  Not availible
+*  
 
 ## Credits:
-This application was created by Corey , and can be found here:
+This application was created by Corey, and can be found here:
 
 * github.com/coreylevine2000/hw-9-ReadMe-Generator
 
 And a special Thank You to You!
 
 ## Licence:
-This app was made with MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This app was made with The Unlicense [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 ## Contributions:
 Any issues you may encounter while using this app, or would like to contribute to its future developement, please contact me at coreylevine2000@aol.com.
