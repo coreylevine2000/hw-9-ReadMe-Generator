@@ -105,7 +105,7 @@ Some of the main features in this app are:
 ## Credits:
 This application was created by ${name}, and can be found here:
 
-* github.com/${username}/${repo}
+* https://github.com/${username}/${repo}
 
 And a special Thank You to ${thankyou}!
 

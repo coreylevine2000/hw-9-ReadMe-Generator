@@ -1,7 +1,7 @@
-ReadMe Generator
+
 
 Issue:
-Hello, and thank you for using ReadMe Generator. ReadMe Generator was created to assist in the issue with Save time. This applicaton was created for the primary use by saving time by premaking a ReadMe file.
+Hello, and thank you for using .  was created to assist in the issue with . This applicaton was created for the primary use by .
 
 
 Table of Contents:
@@ -14,27 +14,27 @@ Table of Contents:
 - [Test](#test)
 
 ## Installation:
-For the installation of this program, you will be required to installVS Code.
+For the installation of this program, you will be required to install.
 Clone the repository to your local machine, and make sure you are cd'd into the file from a programs GIT, if applicable. 
 
 ## Features:
 Some of the main features in this app are:
-*  Generate Readmes to save time
-*  Not availible
+*  
+*  
 *  
 
 ## Credits:
-This application was created by Corey, and can be found here:
+This application was created by , and can be found here:
 
-* github.com/coreylevine2000/hw-9-ReadMe-Generator
+* https://github.com/coreylevine2000/hw-10-Team-Profile-Generator
 
-And a special Thank You to You!
+And a special Thank You to !
 
 ## Licence:
-This app was made with The Unlicense [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+This app was made with GNU AGPLv3 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 ## Contributions:
-Any issues you may encounter while using this app, or would like to contribute to its future developement, please contact me at coreylevine2000@aol.com.
+Any issues you may encounter while using this app, or would like to contribute to its future developement, please contact me at .
 
 ## Test:
 To thoroughly test this application, run 'node index.js' into your GIT, run into a program you may be using instead if applicable.
